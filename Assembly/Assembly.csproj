@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8AAA612B-C0BD-46A3-9885-AA884EFA5C3D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assembly</RootNamespace>
+    <AssemblyName>Assembly</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>len.ico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ConfigureFile, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\ConfigureFile.dll</HintPath>
+    </Reference>
+    <Reference Include="halcondotnet, Version=12.0.0.0, Culture=neutral, PublicKeyToken=4973bed59ddbf2b8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x64\Release\halcondotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemGetProductModule.cs" />
+    <Compile Include="AutoCalibModule.cs" />
+    <Compile Include="BtnControls.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BtnControls.Designer.cs">
+      <DependentUpon>BtnControls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\AutoGetCenterPosTestModule.cs" />
+    <Compile Include="FormDebug\AssembleHeight.cs" />
+    <Compile Include="FormDebug\CalibHeightModule.cs" />
+    <Compile Include="FormDebug\CalibPressureModule.cs" />
+    <Compile Include="Form\AssembleUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form\AssembleUI.Designer.cs">
+      <DependentUpon>AssembleUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\BarrelListTray.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form\BarrelListTray.Designer.cs">
+      <DependentUpon>BarrelListTray.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\BarrelUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form\BarrelUI.Designer.cs">
+      <DependentUpon>BarrelUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmSetMeasurePort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmSetMeasurePort.Designer.cs">
+      <DependentUpon>FrmSetMeasurePort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDebug\FrmCalibHeight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDebug\FrmCalibHeight.designer.cs">
+      <DependentUpon>FrmCalibHeight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDebug\FrmCalibPressure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDebug\FrmCalibPressure.Designer.cs">
+      <DependentUpon>FrmCalibPressure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmAutoCenter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmAutoCenter.Designer.cs">
+      <DependentUpon>FrmAutoCenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDebug\FrmGlueTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDebug\FrmGlueTest.designer.cs">
+      <DependentUpon>FrmGlueTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmCheckResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmCheckResult.Designer.cs">
+      <DependentUpon>FrmCheckResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmGetTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmGetTest.Designer.cs">
+      <DependentUpon>FrmGetTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDebug\FrmRotate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDebug\FrmRotate.designer.cs">
+      <DependentUpon>FrmRotate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAssem1Set.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAssem1Set.Designer.cs">
+      <DependentUpon>FrmAssem1Set.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAssem2Set.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAssem2Set.designer.cs">
+      <DependentUpon>FrmAssem2Set.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOpt1Set.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOpt1Set.Designer.cs">
+      <DependentUpon>FrmOpt1Set.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOpt2Set.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOpt2Set.designer.cs">
+      <DependentUpon>FrmOpt2Set.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTestAssemGetProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTestAssemGetProduct.Designer.cs">
+      <DependentUpon>FrmTestAssemGetProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTestAutoCalib.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTestAutoCalib.Designer.cs">
+      <DependentUpon>FrmTestAutoCalib.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetProductTestModule.cs" />
+    <Compile Include="GlueTest.cs" />
+    <Compile Include="Param\CalibCamera.cs" />
+    <Compile Include="Control\CalibModule.cs" />
+    <Compile Include="Control\Assem2Module.cs" />
+    <Compile Include="Control\BarrelAndGlueModule.cs" />
+    <Compile Include="Control\Assem1Module.cs" />
+    <Compile Include="Control\FlashModule1.cs" />
+    <Compile Include="Control\FlashModule2.cs" />
+    <Compile Include="Control\SingleAxisTest.cs" />
+    <Compile Include="Form\FrmBarrelTrayRelation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmBarrelTrayRelation.Designer.cs">
+      <DependentUpon>FrmBarrelTrayRelation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDebug\FrmCalib.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDebug\FrmCalib.designer.cs">
+      <DependentUpon>FrmCalib.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDebug\FrmDebug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDebug\FrmDebug.Designer.cs">
+      <DependentUpon>FrmDebug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmOtherSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmOtherSet.Designer.cs">
+      <DependentUpon>FrmOtherSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDebug\FrmPixelToAxis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDebug\FrmPixelToAxis.Designer.cs">
+      <DependentUpon>FrmPixelToAxis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmShowImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmShowImage.Designer.cs">
+      <DependentUpon>FrmShowImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmSuctionAndTrayRelation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmSuctionAndTrayRelation.Designer.cs">
+      <DependentUpon>FrmSuctionAndTrayRelation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\GetProduct1Module.cs" />
+    <Compile Include="Control\GetProduct2Module.cs" />
+    <Compile Include="FormDebug\FrmTestAxiscs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDebug\FrmTestAxiscs.Designer.cs">
+      <DependentUpon>FrmTestAxiscs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\OptSuctionUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form\OptSuctionUI.Designer.cs">
+      <DependentUpon>OptSuctionUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Param\ParamListerner.cs" />
+    <Compile Include="Param\AssembleSuction.cs" />
+    <Compile Include="Param\BarrelSuction.cs" />
+    <Compile Include="Control\ActionModule.cs" />
+    <Compile Include="Alarminfo.cs" />
+    <Compile Include="Param\AssemSolution.cs" />
+    <Compile Include="Param\AssemSolutionManager.cs" />
+    <Compile Include="CommonSet.cs" />
+    <Compile Include="Form\FrmAlarmDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmAlarmDialog.Designer.cs">
+      <DependentUpon>FrmAlarmDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmHand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmHand.Designer.cs">
+      <DependentUpon>FrmHand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmPasswordDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmPasswordDialog.designer.cs">
+      <DependentUpon>FrmPasswordDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmSerial485.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmSerial485.Designer.cs">
+      <DependentUpon>FrmSerial485.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmSetDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmSetDialog.Designer.cs">
+      <DependentUpon>FrmSetDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FrmSolutionSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FrmSolutionSet.Designer.cs">
+      <DependentUpon>FrmSolutionSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDebug\FrmTestFlash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDebug\FrmTestFlash.Designer.cs">
+      <DependentUpon>FrmTestFlash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Param\OptSution.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ResultTestModule.cs" />
+    <Compile Include="FormDebug\RotateTest.cs" />
+    <Compile Include="Run.cs" />
+    <Compile Include="SerialAV.cs" />
+    <Compile Include="FormDebug\SerialPortMeasureHeight.cs" />
+    <Compile Include="ShowImageClass.cs" />
+    <Compile Include="Form\ShowListTrayPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form\ShowListTrayPanel.Designer.cs">
+      <DependentUpon>ShowListTrayPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDebug\TestFlash.cs" />
+    <Compile Include="Tool.cs" />
+    <EmbeddedResource Include="BtnControls.resx">
+      <DependentUpon>BtnControls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\AssembleUI.resx">
+      <DependentUpon>AssembleUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\BarrelListTray.resx">
+      <DependentUpon>BarrelListTray.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\BarrelUI.resx">
+      <DependentUpon>BarrelUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmAlarmDialog.resx">
+      <DependentUpon>FrmAlarmDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmBarrelTrayRelation.resx">
+      <DependentUpon>FrmBarrelTrayRelation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDebug\FrmCalib.resx">
+      <DependentUpon>FrmCalib.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDebug\FrmDebug.resx">
+      <DependentUpon>FrmDebug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmHand.resx">
+      <DependentUpon>FrmHand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDebug\FrmCalibHeight.resx">
+      <DependentUpon>FrmCalibHeight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDebug\FrmCalibPressure.resx">
+      <DependentUpon>FrmCalibPressure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmAutoCenter.resx">
+      <DependentUpon>FrmAutoCenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDebug\FrmGlueTest.resx">
+      <DependentUpon>FrmGlueTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmCheckResult.resx">
+      <DependentUpon>FrmCheckResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmGetTest.resx">
+      <DependentUpon>FrmGetTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAssem1Set.resx">
+      <DependentUpon>FrmAssem1Set.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAssem2Set.resx">
+      <DependentUpon>FrmAssem2Set.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmOtherSet.resx">
+      <DependentUpon>FrmOtherSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmPasswordDialog.resx">
+      <DependentUpon>FrmPasswordDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDebug\FrmPixelToAxis.resx">
+      <DependentUpon>FrmPixelToAxis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmSerial485.resx">
+      <DependentUpon>FrmSerial485.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmSetDialog.resx">
+      <DependentUpon>FrmSetDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmSetMeasurePort.resx">
+      <DependentUpon>FrmSetMeasurePort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmShowImage.resx">
+      <DependentUpon>FrmShowImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmSolutionSet.resx">
+      <DependentUpon>FrmSolutionSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FrmSuctionAndTrayRelation.resx">
+      <DependentUpon>FrmSuctionAndTrayRelation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDebug\FrmTestAxiscs.resx">
+      <DependentUpon>FrmTestAxiscs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDebug\FrmTestFlash.resx">
+      <DependentUpon>FrmTestFlash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\OptSuctionUI.resx">
+      <DependentUpon>OptSuctionUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDebug\FrmRotate.resx">
+      <DependentUpon>FrmRotate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOpt1Set.resx">
+      <DependentUpon>FrmOpt1Set.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOpt2Set.resx">
+      <DependentUpon>FrmOpt2Set.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTestAssemGetProduct.resx">
+      <DependentUpon>FrmTestAssemGetProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTestAutoCalib.resx">
+      <DependentUpon>FrmTestAutoCalib.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\ShowListTrayPanel.resx">
+      <DependentUpon>ShowListTrayPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_gear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_gear1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_io.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_user2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Camera\CameraSet.csproj">
+      <Project>{ad4af783-5676-46ca-9530-306012d5189e}</Project>
+      <Name>CameraSet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ImageProcess\ImageProcess.csproj">
+      <Project>{63ab3dff-6545-4d40-acd9-44c989410671}</Project>
+      <Name>ImageProcess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Motion\Motion.csproj">
+      <Project>{01409e82-f2a9-49d3-8277-da5d5862d888}</Project>
+      <Name>Motion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tray\Tray.csproj">
+      <Project>{e1772e47-415b-44e2-8e2f-3cc4b5f2a039}</Project>
+      <Name>Tray</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StateOff.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13959.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\state-grey.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\state-green.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_mouse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_arrow_bottom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_arrow_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_arrow_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_arrow_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_goleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_goright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Company.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Suction_Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Suction_Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Suction_Down_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SuctionButtonDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SuctionButtonUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\加.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\减.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_action_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Release\7856.xml" />
+    <None Include="bin\Release\len.ico.ico" />
+    <Content Include="len.ico.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
