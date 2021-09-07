@@ -8,7 +8,7 @@ using System.Threading;
 using System.Drawing;
 using System.Drawing.Imaging;
 using HalconDotNet;
-namespace CameraSet
+namespace CameraSet0
 {
     public class DaHua:ICamera
     {

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using HalconDotNet;
-namespace CameraSet
+namespace CameraSet0
 {
     public partial class Camera : UserControl
     {

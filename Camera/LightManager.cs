@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ConfigureFile;
 using log4net;
-namespace CameraSet
+namespace CameraSet0
 {
    public class LightManager
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ConfigureFile;
 
-namespace _0E03
+namespace _0E030
 {
     /// <summary>
     /// 组装设定参数

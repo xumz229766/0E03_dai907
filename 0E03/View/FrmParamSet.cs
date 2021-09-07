@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Sunny.UI;
-namespace _0E03
+namespace _0E030
 {
     public partial class FrmParamSet:UIPage
     {

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Threading;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
-namespace Motion
+namespace Motion0
 {
     public partial class FrmTestCard : Form
     {

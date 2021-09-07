@@ -10,7 +10,7 @@ using log4net;
 using System.Threading;
 using System.Diagnostics;
 using System.Runtime.Remoting.Messaging;
-namespace Motion
+namespace Motion0
 {
     public class Adlink7856 : MotionCard
     {

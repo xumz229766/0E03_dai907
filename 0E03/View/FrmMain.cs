@@ -10,13 +10,13 @@ using System.Windows.Forms;
 using Sunny.UI;
 using Tray;
 using System.Threading;
-using CameraSet;
-using Motion;
+using CameraSet0;
+using Motion0;
 using Tray;
 using HalconDotNet;
 using ConfigureFile;
 using System.Diagnostics;
-namespace _0E03
+namespace _0E030
 {
     public partial class FrmMain : UIPage
     {

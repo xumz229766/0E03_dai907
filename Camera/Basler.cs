@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using HalconDotNet;
 using System.Threading;
 using System.Diagnostics;
-namespace CameraSet
+namespace CameraSet0
 {
 
     public class Basler : ICamera

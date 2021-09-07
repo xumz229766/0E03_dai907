@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
-using Motion;
+using Motion0;
 using System.Diagnostics;
-namespace _0E03
+namespace _0E030
 {
     public enum RunMode
     {
@@ -33,7 +33,7 @@ namespace _0E03
         public static RunMode runMode = RunMode.手动;
         private static Run demo = null;
         private static bool[] bHomeTrack;
-        private Motion.MotionCard mc = null;
+        private Motion0.MotionCard mc = null;
         Thread th_Run = null;
 
         public static bool bHome = false;//回原点

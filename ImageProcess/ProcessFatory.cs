@@ -6,7 +6,7 @@ using HalconDotNet;
 using ConfigureFile;
 using System.Diagnostics;
 
-namespace ImageProcess
+namespace ImageProcess0
 {
    public class ProcessFatory
     {

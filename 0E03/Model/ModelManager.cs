@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CameraSet;
-using ImageProcess;
-namespace _0E03
+using CameraSet0;
+using ImageProcess0;
+namespace _0E030
 {
     /// <summary>
     /// 机台数据管理类

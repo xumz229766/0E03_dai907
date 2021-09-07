@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CameraSet;
+using CameraSet0;
 using HalconDotNet;
 using System.Runtime.Remoting.Messaging;
 using System.Diagnostics;
-using ImageProcess;
+using ImageProcess0;
 using System.IO;
 using System.Windows.Forms;
 using ConfigureFile;
 using System.Threading;
-using Motion;
-namespace _0E03
+using Motion0;
+namespace _0E030
 {
    public class ShowImageClass
     {

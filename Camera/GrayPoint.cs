@@ -14,7 +14,7 @@ using System.Drawing.Imaging;
 using System.ComponentModel;
 using System.Diagnostics;
 using ConfigureFile;
-namespace CameraSet
+namespace CameraSet0
 {
     public class GrayPoint:ICamera
     {

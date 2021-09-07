@@ -9,7 +9,7 @@ using log4net;
 using System.Threading;
 using System.Diagnostics;
 using System.Runtime.Remoting.Messaging;
-namespace Motion
+namespace Motion0
 {
     //常用输出
     public enum DO

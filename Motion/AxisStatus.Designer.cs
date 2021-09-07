@@ -1,4 +1,4 @@
-﻿namespace Motion
+﻿namespace Motion0
 {
     partial class AxisStatus
     {
@@ -84,7 +84,7 @@
             // 
             this.lblALM.AutoSize = true;
             this.lblALM.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblALM.Image = global::Motion.Properties.Resources.ball_gray;
+            this.lblALM.Image = global::Motion0.Properties.Resources.ball_gray;
             this.lblALM.Location = new System.Drawing.Point(3, 0);
             this.lblALM.Name = "lblALM";
             this.lblALM.Size = new System.Drawing.Size(31, 26);
@@ -94,7 +94,7 @@
             // 
             this.lblPEL.AutoSize = true;
             this.lblPEL.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblPEL.Image = global::Motion.Properties.Resources.ball_gray;
+            this.lblPEL.Image = global::Motion0.Properties.Resources.ball_gray;
             this.lblPEL.Location = new System.Drawing.Point(40, 0);
             this.lblPEL.Name = "lblPEL";
             this.lblPEL.Size = new System.Drawing.Size(31, 26);
@@ -104,7 +104,7 @@
             // 
             this.lblMEL.AutoSize = true;
             this.lblMEL.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblMEL.Image = global::Motion.Properties.Resources.ball_gray;
+            this.lblMEL.Image = global::Motion0.Properties.Resources.ball_gray;
             this.lblMEL.Location = new System.Drawing.Point(77, 0);
             this.lblMEL.Name = "lblMEL";
             this.lblMEL.Size = new System.Drawing.Size(31, 26);
@@ -114,7 +114,7 @@
             // 
             this.lblORG.AutoSize = true;
             this.lblORG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblORG.Image = global::Motion.Properties.Resources.ball_gray;
+            this.lblORG.Image = global::Motion0.Properties.Resources.ball_gray;
             this.lblORG.Location = new System.Drawing.Point(114, 0);
             this.lblORG.Name = "lblORG";
             this.lblORG.Size = new System.Drawing.Size(31, 26);
@@ -124,7 +124,7 @@
             // 
             this.lblEMG.AutoSize = true;
             this.lblEMG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblEMG.Image = global::Motion.Properties.Resources.ball_gray;
+            this.lblEMG.Image = global::Motion0.Properties.Resources.ball_gray;
             this.lblEMG.Location = new System.Drawing.Point(151, 0);
             this.lblEMG.Name = "lblEMG";
             this.lblEMG.Size = new System.Drawing.Size(31, 26);
@@ -134,7 +134,7 @@
             // 
             this.lblEZ.AutoSize = true;
             this.lblEZ.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblEZ.Image = global::Motion.Properties.Resources.ball_gray;
+            this.lblEZ.Image = global::Motion0.Properties.Resources.ball_gray;
             this.lblEZ.Location = new System.Drawing.Point(188, 0);
             this.lblEZ.Name = "lblEZ";
             this.lblEZ.Size = new System.Drawing.Size(31, 26);
@@ -144,7 +144,7 @@
             // 
             this.lblINP.AutoSize = true;
             this.lblINP.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblINP.Image = global::Motion.Properties.Resources.ball_gray;
+            this.lblINP.Image = global::Motion0.Properties.Resources.ball_gray;
             this.lblINP.Location = new System.Drawing.Point(225, 0);
             this.lblINP.Name = "lblINP";
             this.lblINP.Size = new System.Drawing.Size(31, 26);
@@ -154,7 +154,7 @@
             // 
             this.lblSVON.AutoSize = true;
             this.lblSVON.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblSVON.Image = global::Motion.Properties.Resources.ball_gray;
+            this.lblSVON.Image = global::Motion0.Properties.Resources.ball_gray;
             this.lblSVON.Location = new System.Drawing.Point(262, 0);
             this.lblSVON.Name = "lblSVON";
             this.lblSVON.Size = new System.Drawing.Size(31, 26);
@@ -164,7 +164,7 @@
             // 
             this.lblRDY.AutoSize = true;
             this.lblRDY.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblRDY.Image = global::Motion.Properties.Resources.ball_gray;
+            this.lblRDY.Image = global::Motion0.Properties.Resources.ball_gray;
             this.lblRDY.Location = new System.Drawing.Point(299, 0);
             this.lblRDY.Name = "lblRDY";
             this.lblRDY.Size = new System.Drawing.Size(31, 26);

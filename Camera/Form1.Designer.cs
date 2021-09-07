@@ -1,4 +1,4 @@
-﻿namespace CameraSet
+﻿namespace CameraSet0
 {
     partial class FrmCameraAndLight
     {
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btnSave = new System.Windows.Forms.Button();
-            this.camera1 = new CameraSet.Camera();
+            this.camera1 = new CameraSet0.Camera();
             this.SuspendLayout();
             // 
             // btnSave

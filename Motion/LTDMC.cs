@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Runtime.InteropServices;
 
-namespace Motion//命名空间根据应用程序修改
+namespace Motion0//命名空间根据应用程序修改
 {
     public delegate uint DMC3K5K_OPERATE(IntPtr operate_data); 
     public partial class LTDMC

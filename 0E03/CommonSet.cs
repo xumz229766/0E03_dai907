@@ -8,11 +8,11 @@ using System.Drawing;
 using log4net;
 //using ImageProcess;
 using Tray;
-using CameraSet;
+using CameraSet0;
 using HalconDotNet;
 using System.Runtime.Remoting.Messaging;
 //using Motion;
-namespace _0E03
+namespace _0E030
 {
     public class CommonSet
     {

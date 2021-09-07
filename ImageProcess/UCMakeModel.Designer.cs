@@ -1,4 +1,4 @@
-﻿namespace ImageProcess
+﻿namespace ImageProcess0
 {
     partial class UCMakeModel
     {

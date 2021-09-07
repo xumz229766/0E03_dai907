@@ -7,8 +7,8 @@
     <ProjectGuid>{63AB3DFF-6545-4D40-ACD9-44C989410671}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ImageProcess</RootNamespace>
-    <AssemblyName>ImageProcess</AssemblyName>
+    <RootNamespace>ImageProcess0</RootNamespace>
+    <AssemblyName>ImageProcess0</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

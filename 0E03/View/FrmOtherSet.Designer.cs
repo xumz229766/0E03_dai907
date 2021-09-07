@@ -1,4 +1,4 @@
-﻿namespace _0E03
+﻿namespace _0E030
 {
     partial class FrmOtherSet
     {

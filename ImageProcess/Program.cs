@@ -5,7 +5,7 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Diagnostics;
 using System.Reflection;
-namespace ImageProcess
+namespace ImageProcess0
 {
   
     static class Program

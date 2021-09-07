@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading;
 using log4net;
 using ConfigureFile;
-using ImageProcess;
+using ImageProcess0;
 using System.ComponentModel;
-namespace _0E03
+namespace _0E030
 {
     /// <summary>
     /// 存储点位的类

@@ -6,7 +6,7 @@ using PylonC.NET;
 using HalconDotNet;
 using ThridLibray;
 using CLIDelegate;
-namespace CameraSet
+namespace CameraSet0
 {
    public enum CameraName{
        CamUpL,

@@ -7,8 +7,8 @@
     <ProjectGuid>{0F31CB72-CFCF-4A02-AD29-6D512A774BD6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_0E03</RootNamespace>
-    <AssemblyName>0E03</AssemblyName>
+    <RootNamespace>_0E030</RootNamespace>
+    <AssemblyName>0E030</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -242,21 +242,21 @@
     <None Include="bin\x64\Release\len.ico.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Camera\CameraSet.csproj">
+    <ProjectReference Include="..\Camera\CameraSet0.csproj">
       <Project>{ad4af783-5676-46ca-9530-306012d5189e}</Project>
-      <Name>CameraSet</Name>
+      <Name>CameraSet0</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ImageProcess\ImageProcess.csproj">
+    <ProjectReference Include="..\ImageProcess\ImageProcess0.csproj">
       <Project>{63ab3dff-6545-4d40-acd9-44c989410671}</Project>
-      <Name>ImageProcess</Name>
+      <Name>ImageProcess0</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Motion\Motion.csproj">
+    <ProjectReference Include="..\Motion\0Motion.csproj">
       <Project>{01409e82-f2a9-49d3-8277-da5d5862d888}</Project>
-      <Name>Motion</Name>
+      <Name>0Motion</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Tray\Tray.csproj">
+    <ProjectReference Include="..\Tray\Tray0.csproj">
       <Project>{e1772e47-415b-44e2-8e2f-3cc4b5f2a039}</Project>
-      <Name>Tray</Name>
+      <Name>Tray0</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

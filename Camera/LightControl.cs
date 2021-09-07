@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CSharp_OPTControllerAPI;
-namespace CameraSet
+namespace CameraSet0
 {
    public class LightControl
     {

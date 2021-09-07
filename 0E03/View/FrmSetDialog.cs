@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _0E03
+namespace _0E030
 {
     public partial class FrmSetDialog : Form
     {

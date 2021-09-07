@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using HalconDotNet;
 using log4net;
-namespace ImageProcess
+namespace ImageProcess0
 {
     public enum eMethod { 
         定位_模板匹配,

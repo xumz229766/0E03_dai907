@@ -5,7 +5,7 @@ using System.Text;
 using System.IO;
 using HalconDotNet;
 using ConfigureFile;
-namespace ImageProcess
+namespace ImageProcess0
 {
     public class ImageProcessManager
     {

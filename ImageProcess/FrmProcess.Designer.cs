@@ -1,4 +1,4 @@
-﻿namespace ImageProcess
+﻿namespace ImageProcess0
 {
     partial class FrmProcess
     {
@@ -285,7 +285,7 @@
             // 
             // toolReadImg
             // 
-            this.toolReadImg.Image = global::ImageProcess.Properties.Resources.ic_action_picture;
+            this.toolReadImg.Image = global::ImageProcess0.Properties.Resources.ic_action_picture;
             this.toolReadImg.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolReadImg.Name = "toolReadImg";
             this.toolReadImg.Size = new System.Drawing.Size(89, 24);
@@ -365,7 +365,7 @@
             // toolStripButton1
             // 
             this.toolStripButton1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolStripButton1.Image = global::ImageProcess.Properties.Resources.ic_action_io1;
+            this.toolStripButton1.Image = global::ImageProcess0.Properties.Resources.ic_action_io1;
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(59, 24);
@@ -542,7 +542,7 @@
             // btn_RAreaTest
             // 
             this.btn_RAreaTest.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_RAreaTest.Image = global::ImageProcess.Properties.Resources.ic_action_gear;
+            this.btn_RAreaTest.Image = global::ImageProcess0.Properties.Resources.ic_action_gear;
             this.btn_RAreaTest.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_RAreaTest.Location = new System.Drawing.Point(8, 12);
             this.btn_RAreaTest.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -593,7 +593,7 @@
             // btnRATest
             // 
             this.btnRATest.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnRATest.Image = global::ImageProcess.Properties.Resources.ic_action_gear;
+            this.btnRATest.Image = global::ImageProcess0.Properties.Resources.ic_action_gear;
             this.btnRATest.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRATest.Location = new System.Drawing.Point(8, 12);
             this.btnRATest.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -644,7 +644,7 @@
             // btnMCircleSet
             // 
             this.btnMCircleSet.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnMCircleSet.Image = global::ImageProcess.Properties.Resources.ic_action_gear;
+            this.btnMCircleSet.Image = global::ImageProcess0.Properties.Resources.ic_action_gear;
             this.btnMCircleSet.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMCircleSet.Location = new System.Drawing.Point(12, 12);
             this.btnMCircleSet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -716,7 +716,7 @@
             // btnModelSet
             // 
             this.btnModelSet.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnModelSet.Image = global::ImageProcess.Properties.Resources.ic_action_gear;
+            this.btnModelSet.Image = global::ImageProcess0.Properties.Resources.ic_action_gear;
             this.btnModelSet.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnModelSet.Location = new System.Drawing.Point(12, 12);
             this.btnModelSet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);

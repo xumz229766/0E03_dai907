@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
-using Motion;
+using Motion0;
 using System.Diagnostics;
-namespace _0E03
+namespace _0E030
 {
     /// <summary>
     /// 报警信息

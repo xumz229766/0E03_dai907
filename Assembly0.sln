@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraSet", "Camera\CameraSet.csproj", "{AD4AF783-5676-46CA-9530-306012D5189E}"
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraSet0", "Camera\CameraSet0.csproj", "{AD4AF783-5676-46CA-9530-306012D5189E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcess", "ImageProcess\ImageProcess.csproj", "{63AB3DFF-6545-4D40-ACD9-44C989410671}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcess0", "ImageProcess\ImageProcess0.csproj", "{63AB3DFF-6545-4D40-ACD9-44C989410671}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tray", "Tray\Tray.csproj", "{E1772E47-415B-44E2-8E2F-3CC4B5F2A039}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tray0", "Tray\Tray0.csproj", "{E1772E47-415B-44E2-8E2F-3CC4B5F2A039}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Motion", "Motion\Motion.csproj", "{01409E82-F2A9-49D3-8277-DA5D5862D888}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0Motion", "Motion\0Motion.csproj", "{01409E82-F2A9-49D3-8277-DA5D5862D888}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0E03", "0E03\0E03.csproj", "{0F31CB72-CFCF-4A02-AD29-6D512A774BD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0E030", "0E03\0E030.csproj", "{0F31CB72-CFCF-4A02-AD29-6D512A774BD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

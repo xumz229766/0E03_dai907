@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Threading;
-namespace Motion
+namespace Motion0
 {
     public partial class IOControl : UserControl
     {

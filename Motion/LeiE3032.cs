@@ -12,7 +12,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Collections;
 
-namespace Motion
+namespace Motion0
 {
     /// <summary>
     /// 雷赛E3020，轴站号0-31,输入卡32-63,输出卡64-127

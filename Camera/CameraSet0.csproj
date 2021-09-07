@@ -7,8 +7,8 @@
     <ProjectGuid>{AD4AF783-5676-46CA-9530-306012D5189E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CameraSet</RootNamespace>
-    <AssemblyName>CameraSet</AssemblyName>
+    <RootNamespace>CameraSet0</RootNamespace>
+    <AssemblyName>CameraSet0</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

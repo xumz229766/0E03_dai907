@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Sunny.UI;
-using Motion;
+using Motion0;
 using Tray;
 using HalconDotNet;
-using ImageProcess;
+using ImageProcess0;
 using System.Diagnostics;
-namespace _0E03
+namespace _0E030
 {
     public partial class FrmSetLeft : UIPage
     {

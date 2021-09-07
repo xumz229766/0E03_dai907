@@ -9,7 +9,7 @@ using System.Windows.Forms;
 using Microsoft.VisualBasic;
 using System.IO;
 using HalconDotNet;
-namespace ImageProcess
+namespace ImageProcess0
 {
     public partial class FrmProcess : Form
     {

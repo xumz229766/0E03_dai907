@@ -1,4 +1,4 @@
-﻿namespace Motion
+﻿namespace Motion0
 {
     partial class FrmStatus
     {
@@ -32,9 +32,9 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.axisControl1 = new Motion.AxisControl();
+            this.axisControl1 = new Motion0.AxisControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.ioControl1 = new Motion.IOControl();
+            this.ioControl1 = new Motion0.IOControl();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblElapsedTime = new System.Windows.Forms.ToolStripStatusLabel();

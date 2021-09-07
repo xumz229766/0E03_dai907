@@ -1,4 +1,4 @@
-﻿namespace Motion
+﻿namespace Motion0
 {
     partial class IOStatus
     {
@@ -57,7 +57,7 @@
             // 
             this.lblStatus.AutoSize = true;
             this.lblStatus.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblStatus.Image = global::Motion.Properties.Resources.state_grey;
+            this.lblStatus.Image = global::Motion0.Properties.Resources.state_grey;
             this.lblStatus.Location = new System.Drawing.Point(33, 0);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(24, 37);

@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using ConfigureFile;
 using HalconDotNet;
-using ImageProcess;
+using ImageProcess0;
 using Tray;
 using System.ComponentModel;
-namespace _0E03
+namespace _0E030
 {
     public class SuctionR:INotifyPropertyChanged
     {

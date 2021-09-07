@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using HalconDotNet;
 using System.Threading;
-namespace CameraSet
+namespace CameraSet0
 {
     public class OPT:ICamera
     {

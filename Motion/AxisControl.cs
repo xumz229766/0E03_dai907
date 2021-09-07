@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace Motion
+namespace Motion0
 {
     public partial class AxisControl : UserControl
     {

@@ -1,4 +1,4 @@
-﻿namespace CameraSet
+﻿namespace CameraSet0
 {
     partial class Camera
     {

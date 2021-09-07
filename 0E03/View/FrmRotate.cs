@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using HalconDotNet;
-using Motion;
-using ImageProcess;
-namespace _0E03
+using Motion0;
+using ImageProcess0;
+namespace _0E030
 {
     public partial class FrmRotate : Form
     {

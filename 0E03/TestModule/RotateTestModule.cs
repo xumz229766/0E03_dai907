@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Motion;
-using CameraSet;
-namespace _0E03
+using Motion0;
+using CameraSet0;
+namespace _0E030
 {
     public class RotateTestModule : ActionModule
     {

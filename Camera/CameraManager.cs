@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using HalconDotNet;
 using ConfigureFile;
-namespace CameraSet
+namespace CameraSet0
 {
    public class CameraManager
     {

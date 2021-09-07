@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using HalconDotNet;
 using System.Threading;
-namespace CameraSet
+namespace CameraSet0
 {
     public partial class FrmCameraAndLight : Form
     {

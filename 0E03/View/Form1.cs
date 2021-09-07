@@ -11,9 +11,9 @@ using Sunny.UI;
 using System.Diagnostics;
 using System.Threading;
 using System.Runtime.InteropServices;
-using CameraSet;
-using Motion;
-namespace _0E03
+using CameraSet0;
+using Motion0;
+namespace _0E030
 {
     public partial class Form1:UIHeaderAsideMainFrame
     {

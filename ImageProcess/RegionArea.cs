@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using HalconDotNet;
 using ConfigureFile;
-namespace ImageProcess
+namespace ImageProcess0
 {
    public class RegionArea : IProcess
     {

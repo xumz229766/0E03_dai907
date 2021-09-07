@@ -1,4 +1,4 @@
-﻿namespace Motion
+﻿namespace Motion0
 {
     partial class AxisControl
     {
@@ -53,18 +53,18 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.镜筒Y轴 = new Motion.AxisStatus();
-            this.取料Y1轴 = new Motion.AxisStatus();
-            this.取料Y2轴 = new Motion.AxisStatus();
-            this.组装X2轴 = new Motion.AxisStatus();
-            this.组装X1轴 = new Motion.AxisStatus();
-            this.取料X2轴 = new Motion.AxisStatus();
-            this.镜筒X轴 = new Motion.AxisStatus();
-            this.取料X1轴 = new Motion.AxisStatus();
-            this.组装Z2轴 = new Motion.AxisStatus();
-            this.组装Z1轴 = new Motion.AxisStatus();
-            this.C1轴 = new Motion.AxisStatus();
-            this.C2轴 = new Motion.AxisStatus();
+            this.镜筒Y轴 = new Motion0.AxisStatus();
+            this.取料Y1轴 = new Motion0.AxisStatus();
+            this.取料Y2轴 = new Motion0.AxisStatus();
+            this.组装X2轴 = new Motion0.AxisStatus();
+            this.组装X1轴 = new Motion0.AxisStatus();
+            this.取料X2轴 = new Motion0.AxisStatus();
+            this.镜筒X轴 = new Motion0.AxisStatus();
+            this.取料X1轴 = new Motion0.AxisStatus();
+            this.组装Z2轴 = new Motion0.AxisStatus();
+            this.组装Z1轴 = new Motion0.AxisStatus();
+            this.C1轴 = new Motion0.AxisStatus();
+            this.C2轴 = new Motion0.AxisStatus();
             this.axisY.SuspendLayout();
             this.SuspendLayout();
             // 

@@ -1,4 +1,4 @@
-﻿namespace Motion
+﻿namespace Motion0
 {
     partial class FrmTestCard
     {

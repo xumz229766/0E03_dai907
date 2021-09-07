@@ -9,7 +9,7 @@ using System.Windows.Forms;
 using HalconDotNet;
 
 
-namespace ImageProcess
+namespace ImageProcess0
 {
     public partial class UCRegionAngle : UserControl
     {

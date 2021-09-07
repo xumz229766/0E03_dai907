@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using HalconDotNet;
 using ConfigureFile;
-namespace ImageProcess
+namespace ImageProcess0
 {
    public class MakeModel:IProcess
     {
